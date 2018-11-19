@@ -1,3 +1,4 @@
+#code to be used to merge the two sides of inputs from mergesort()
 def merge(left, right):
     result = []
     i, j = 0, 0
@@ -17,7 +18,7 @@ def merge(left, right):
     return result
 
 
-
+#code used to divide the provided list
 def mergesort(lst):
     counter = 0
     if (len(lst) <= 1):
